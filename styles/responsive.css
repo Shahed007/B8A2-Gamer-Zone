@@ -1,0 +1,36 @@
+/************* RESPONSIVE FOR EXTRA LARGE DEVICE**************/
+@media screen and (min-width: 1200) {
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+
+/************* RESPONSIVE FOR TABLET AND MEDIUM DEVICE**************/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+}
+
+/************* RESPONSIVE FOR MOBILE DEVICE**************/
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem 0;
+  }
+
+  nav .main-menu ul {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  nav .main-menu {
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+  }
+}
