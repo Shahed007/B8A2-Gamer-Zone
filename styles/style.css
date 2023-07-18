@@ -8,7 +8,8 @@
   --paragraph-color: #534c64;
   --heder-background: #ede4ff;
   --primary-font: "Work Sans", sans-serif, system-ui;
-  --heading-font: "Inknut Antiqua", serif;
+  --heading-font: "Inknut Antiqua", sans-serif, system-ui;
+  --secondary-btn-color: #4ec5f7;
 }
 
 /************** RESET STYLING START*****************/
@@ -44,6 +45,46 @@ a {
   max-width: 114rem;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 1.5rem 4rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  border-radius: 3rem;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary {
+  background-image: var(--text-linear-gradient);
+  color: #fff;
+  transition: transform 0.4s ease;
+  position: relative;
+}
+
+.btn-secondary {
+  background-image: linear-gradient(
+    60deg,
+    var(--secondary-btn-color),
+    var(--primary-color)
+  );
+  color: #fff;
+  margin-left: 2rem;
+  transition: transform 0.4s ease;
+}
+
+/* .btn-primary:active {
+  transform: translateY(-1rem);
+} */
+
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+.btn-secondary:hover {
+  transform: scale(1.1);
 }
 
 .border-red {
@@ -118,5 +159,90 @@ nav .main-menu .main-menu-icon-box .main-menu-icon {
 /************** HEDER STYLING START*****************/
 header {
   background-color: var(--heder-background);
+  height: auto;
+}
+
+/************** BANNER SECTION STYLING START*****************/
+.banner-section {
+  margin-top: 5rem;
+  background-image: url("../images/group-14.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+}
+.banner-section-container {
+  display: flex;
+  /* align-items: center; */
+  gap: 6rem;
+}
+.banner-section-column {
+  min-height: 5rem;
+  flex-basis: calc((100% - 60px) / 2);
+}
+.banner-section-column-text {
+  /* background-image: url("../images/group-14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.banner-section-title-secondary {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-wrap: 2px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: -1.8rem;
+}
+
+.banner-section-title-primary {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
+  font-weight: 800;
+  font-size: 5rem;
+  background-image: var(--text-linear-gradient);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-bottom: -1.5rem;
+}
+
+.banner-section-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.banner-section-info li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--paragraph-color);
+}
+.banner-section-info li span .bx {
+  font-size: 2rem;
+  margin-top: 0.2rem;
+  color: var(--primary-color);
+}
+.banner-section-info li span {
+  display: inline-block;
+}
+
+.banner-section-btn-box {
+  margin-top: 4rem;
+}
+
+.banner-section-column img {
+  width: 100%;
 }
 /************** HEADER STYLING END*****************/

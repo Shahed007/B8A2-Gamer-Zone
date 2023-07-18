@@ -13,10 +13,31 @@
     padding: 2rem 0;
     gap: 2rem;
   }
+
+  .banner-section-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-section-column {
+    flex-basis: 100%;
+  }
+
+  .banner-section-column-text {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+  .banner-section-title-secondary,
+  .banner-section-title-primary {
+    text-align: center;
+  }
 }
 
 /************* RESPONSIVE FOR MOBILE DEVICE**************/
 @media screen and (max-width: 576px) {
+  html {
+    font-size: 56%;
+  }
   nav {
     flex-direction: column;
     justify-content: center;
@@ -32,5 +53,37 @@
     flex-direction: column;
     gap: 4rem;
     justify-content: center;
+  }
+
+  .banner-section-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-section-column {
+    flex-basis: 100%;
+  }
+
+  .banner-section-column-text {
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .banner-section-title-secondary {
+    font-size: 2.5rem;
+  }
+  .banner-section-title-primary {
+    font-size: 4rem;
+  }
+  .banner-section-title-secondary,
+  .banner-section-title-primary {
+    text-align: center;
+  }
+
+  .btn-secondary {
+    margin-left: 1rem;
+  }
+
+  .btn {
+    padding: 1.5rem 3rem;
   }
 }
