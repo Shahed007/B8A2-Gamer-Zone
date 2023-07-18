@@ -1,0 +1,22 @@
+/* FONT FAMILY WORK SANS */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/************** RESET STYLING START*****************/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+/************** RESET STYLING END*****************/
