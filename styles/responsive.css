@@ -70,6 +70,51 @@
   .section-online-game-item .card .card-img-box img {
     filter: brightness(130%);
   }
+
+  .section-play-game-container {
+    flex-direction: column;
+  }
+
+  .section-play-game-column-text,
+  .section-play-game-column-img {
+    width: 100%;
+  }
+  .section-play-game-column-img {
+    text-align: center;
+  }
+
+  .section-play-game-column-img .section-play-game-banner-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .section-play-game-column-img .section-play-game-banner-sub-img {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    left: -1rem;
+    bottom: -4rem;
+  }
+
+  .section-play-game-column-text,
+  .text-align-left {
+    text-align: center;
+    padding: 0;
+  }
+
+  .section-play-game-column-text .section-description,
+  .text-align-left,
+  .section-description {
+    width: 100%;
+    margin: 0;
+  }
+  .section-play-game-column-img .position-right {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: -1rem;
+    bottom: -4rem;
+  }
 }
 
 /************* RESPONSIVE FOR TABLET DEVICE**************/
@@ -161,5 +206,54 @@
 
   .section-online-game-item .card h3 {
     font-size: 1.6rem;
+  }
+
+  .section-play-game-container {
+    flex-direction: column;
+  }
+
+  .section-play-game-column-text,
+  .section-play-game-column-img {
+    width: 100%;
+  }
+  .section-play-game-column-img {
+    text-align: center;
+  }
+
+  .section-play-game-column-img .section-play-game-banner-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .section-play-game-column-img .section-play-game-banner-sub-img {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    left: -1rem;
+    bottom: -4rem;
+  }
+
+  .section-play-game-column-text {
+    text-align: center;
+    padding: 0;
+  }
+
+  .text-align-left {
+    text-align: center !important;
+    padding: 0;
+  }
+
+  .section-play-game-column-text .section-description,
+  .text-align-left .section-description {
+    width: 100%;
+    margin: 0;
+  }
+
+  .section-play-game-column-img .position-right {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: -1rem;
+    bottom: -4rem;
   }
 }
