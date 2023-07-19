@@ -148,9 +148,10 @@ nav {
   justify-content: space-between;
   border-bottom: 1px solid rgba(11, 2, 35, 0.1);
 }
-nav .logo .logo-2 {
+.logo .logo-2 {
   height: 4rem;
   margin-left: 0.4rem;
+  cursor: pointer;
 }
 
 nav .main-menu {
@@ -638,6 +639,89 @@ header {
   color: var(--primary-color);
 }
 /************** ALL GAME SECTION STYLING END*****************/
+
+/************** FOOTER SECTION STYLING END*****************/
+footer {
+  background-color: #e8dcfe;
+  padding: 9rem 0;
+  margin-top: 12rem;
+  display: grid;
+  place-items: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer-navbar ul {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.footer-navbar ul li a:link,
+.footer-navbar ul li a:visited {
+  color: var(--paragraph-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-social-icons .social-icon-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer-social-icons .social-icon-btn .bx {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.footer-bottom-nav {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  color: var(--paragraph-color);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.copy-right {
+  font-size: 1.7rem;
+  color: var(--font-color-primary);
+  font-weight: 500;
+}
+
+.copy-right strong {
+  color: transparent;
+  font-family: var(--heading-font);
+  line-height: 1.1;
+  background-image: var(--text-linear-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/************** FOOTER SECTION STYLING END*****************/
 
 /************** ANIMATION STYLING START*****************/
 @keyframes bouncing {

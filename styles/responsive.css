@@ -140,6 +140,42 @@
   .section-we-are-gammer-column-text {
     text-align: center;
   }
+
+  .footer-navbar ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-navbar ul li a:link,
+  .footer-bottom-nav ul li a:visited {
+    font-size: 1.4rem;
+  }
+
+  .footer-social-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+
+  .footer-bottom-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .footer-social-icons {
+    gap: 2rem;
+  }
+
+  .copy-right {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
 }
 
 /************* RESPONSIVE FOR MOBILE DEVICE**************/
