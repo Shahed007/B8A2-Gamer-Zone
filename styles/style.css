@@ -88,6 +88,16 @@ a {
   transform: scale(1.1);
 }
 
+.btn-white {
+  background-color: white;
+  transition: transform 0.4s ease;
+  color: var(--primary-color);
+}
+
+.btn-white:hover {
+  transform: scale(1.1);
+}
+
 .border-red {
   border: 2px solid red;
 }
@@ -203,7 +213,7 @@ header {
   background-image: url("../images/group-14.png");
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size: contain;
+  background-size: 55%;
 }
 .banner-section-container {
   display: flex;
@@ -511,6 +521,69 @@ header {
   margin-right: 30%;
 }
 /************** PLAY GAME INSTANTLY STYLING END*****************/
+
+/************** CAREERS SECTION STYLING START*****************/
+.section-careers {
+  margin-top: 12rem;
+  padding: 6rem 0;
+  background-image: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+
+.section-careers-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.section-careers-column-text,
+.section-careers-column-img {
+  min-height: 5rem;
+  flex-basis: calc((100% - 40px) / 2);
+}
+
+/* .section-careers-column-img {
+  background-image: ;
+  
+} */
+.section-careers-column-text {
+  color: #fff;
+  padding: 2rem;
+}
+
+.section-careers-title {
+  font-size: 3.8rem;
+  font-weight: 700;
+  font-family: var(--heading-font);
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.section-careers-description {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.section-careers-list {
+  columns: 2;
+  margin: 4rem 0 3.5rem 0;
+}
+
+.section-careers-list li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.section-careers-list li {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.section-careers-column-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/************** CAREERS SECTION STYLING END*****************/
 
 /************** ANIMATION STYLING START*****************/
 @keyframes bouncing {
