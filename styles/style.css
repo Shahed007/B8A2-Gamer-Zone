@@ -173,6 +173,12 @@ a:visited {
   color: #3c354f;
   font-size: 1.8rem;
   font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav .main-menu ul li a:hover,
+nav .main-menu ul li a:active {
+  color: var(--primary-color);
 }
 
 nav .main-menu .main-menu-icon-box {
@@ -675,6 +681,7 @@ footer {
   color: var(--paragraph-color);
   font-size: 1.8rem;
   font-weight: 600;
+  transition: color 0.3s ease;
 }
 
 .footer-social-icons {
@@ -700,10 +707,22 @@ footer {
   display: flex;
   align-items: center;
   gap: 5rem;
+  margin-bottom: 4rem;
+}
+
+.footer-bottom-nav a:link,
+.footer-bottom-nav a:visited {
   color: var(--paragraph-color);
   font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 4rem;
+  transition: color 0.3s ease;
+}
+
+.footer-navbar ul li a:hover,
+.footer-navbar ul li a:active,
+.footer-bottom-nav a:hover,
+.footer-bottom-nav a:active {
+  color: var(--primary-color);
 }
 
 .copy-right {
