@@ -96,18 +96,22 @@
     bottom: -4rem;
   }
 
-  .section-play-game-column-text,
-  .text-align-left {
+  .section-play-game-column-text {
     text-align: center;
     padding: 0;
   }
 
+  .text-align-left {
+    text-align: center !important;
+    padding: 0;
+  }
+
   .section-play-game-column-text .section-description,
-  .text-align-left,
-  .section-description {
+  .text-align-left .section-description {
     width: 100%;
     margin: 0;
   }
+
   .section-play-game-column-img .position-right {
     width: 30%;
     height: 40%;
