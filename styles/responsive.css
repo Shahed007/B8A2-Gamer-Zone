@@ -1,10 +1,10 @@
 /************* RESPONSIVE FOR EXTRA LARGE DEVICE**************/
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     max-width: 1400px;
     margin: 0 auto;
   }
-}
+} */
 
 /************* RESPONSIVE FOR LAPTOP AND MEDIUM DEVICE**************/
 @media screen and (max-width: 1024px) {
@@ -13,6 +13,9 @@
   }
   .section-we-are-gammer-column-text h4 {
     font-size: 1.7rem;
+  }
+  .section-online-game-item .card h3 {
+    font-size: 1.4rem;
   }
 }
 
@@ -45,6 +48,27 @@
   .section-we-are-gammer-column-text,
   .section-we-are-gammer-column-img {
     width: 48.5%;
+  }
+
+  .section-online-game-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-online-game-item .card .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: translateX(0px);
+  }
+
+  .section-online-game-item .card h3 {
+    font-size: 1.6rem;
+  }
+
+  .section-title-box .section-description {
+    width: 100%;
+  }
+
+  .section-online-game-item .card .card-img-box img {
+    filter: brightness(130%);
   }
 }
 
@@ -120,5 +144,22 @@
 
   .banner-section {
     padding-bottom: 3rem;
+  }
+
+  .section-online-game-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-online-game-item .card .overlay {
+    transform: translateX(0px);
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .section-online-game-item .card .card-img-box img {
+    filter: brightness(130%);
+  }
+
+  .section-online-game-item .card h3 {
+    font-size: 1.6rem;
   }
 }
