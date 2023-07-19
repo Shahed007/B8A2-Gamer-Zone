@@ -1,8 +1,18 @@
 /************* RESPONSIVE FOR EXTRA LARGE DEVICE**************/
-@media screen and (min-width: 1200) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1400px;
     margin: 0 auto;
+  }
+}
+
+/************* RESPONSIVE FOR LAPTOP AND MEDIUM DEVICE**************/
+@media screen and (max-width: 1024px) {
+  .section-we-are-gammer-title {
+    font-size: 3rem;
+  }
+  .section-we-are-gammer-column-text h4 {
+    font-size: 1.7rem;
   }
 }
 
@@ -29,6 +39,27 @@
   }
   .banner-section-title-secondary,
   .banner-section-title-primary {
+    text-align: center;
+  }
+
+  .section-we-are-gammer-column-text,
+  .section-we-are-gammer-column-img {
+    width: 48.5%;
+  }
+}
+
+/************* RESPONSIVE FOR TABLET DEVICE**************/
+@media screen and (max-width: 768px) {
+  .section-we-are-gammer-container {
+    flex-direction: column;
+    gap: 6rem;
+  }
+  .section-we-are-gammer-column-text,
+  .section-we-are-gammer-column-img {
+    width: 100%;
+  }
+
+  .section-we-are-gammer-column-text {
     text-align: center;
   }
 }
@@ -85,5 +116,9 @@
 
   .btn {
     padding: 1.5rem 3rem;
+  }
+
+  .banner-section {
+    padding-bottom: 3rem;
   }
 }
