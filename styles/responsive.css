@@ -291,4 +291,18 @@
   .section-title {
     font-size: 2.8rem;
   }
+
+  .section-all-game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section-all-game-item img {
+    height: 3rem;
+    width: 3rem;
+  }
+  .section-all-game-item a:link,
+  .section-all-game-item a:visited {
+    font-size: 1.1rem;
+  }
 }
