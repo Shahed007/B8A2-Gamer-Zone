@@ -54,9 +54,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .section-online-game-item .card .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    transform: translateX(0px);
+  .section-online-game-item-3 .card .overlay {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    transform: translateX(0px) !important;
   }
 
   .section-online-game-item .card h3 {
@@ -248,9 +248,9 @@
     grid-template-columns: 1fr;
   }
 
-  .section-online-game-item .card .overlay {
-    transform: translateX(0px);
-    background-color: rgba(0, 0, 0, 0.7);
+  .section-online-game-item .card .active {
+    transform: translateX(0px) !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
   }
 
   .section-online-game-item .card .card-img-box img {

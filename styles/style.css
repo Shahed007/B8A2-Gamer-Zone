@@ -150,10 +150,13 @@ nav {
   justify-content: space-between;
   border-bottom: 1px solid rgba(11, 2, 35, 0.1);
 }
+
+.logo {
+  cursor: url("/images/icons/computer-mouse.png"), auto;
+}
 .logo .logo-2 {
   height: 4rem;
   margin-left: 0.4rem;
-  cursor: pointer;
 }
 
 nav .main-menu {
