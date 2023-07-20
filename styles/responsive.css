@@ -54,7 +54,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .section-online-game-item-3 .card .overlay {
+  .section-online-game-item-3 .card .active {
     background-color: rgba(0, 0, 0, 0.7) !important;
     transform: translateX(0px) !important;
   }
